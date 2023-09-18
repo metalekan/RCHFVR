@@ -89,6 +89,15 @@ const projectData = [
     tech: ['JavaScript', 'API'],
     title: "Weather App",
     details: "This is an online platform that provides up-to-date and accurate weather information for various cities around the world. With a user-friendly interface,  and staying informed about weather conditions."
+  },
+  {
+    id: 11,
+    url: "https://metalekan-tmdb.netlify.app/",
+    github: "https://github.com/metalekan/TMDB",
+    image: "images/movieapp.jpeg",
+    tech: ['React', 'API', 'Tailwind'],
+    title: "Movie App",
+    details: "Showbox is an innovative movie app that combines the power of React, the sleekness of Tailwind CSS, and seamless API integration to deliver a captivating movie-watching experience. You can effortlessly explore a vast collection of movies, access detailed information, watch trailers."
   }
 ];
 
