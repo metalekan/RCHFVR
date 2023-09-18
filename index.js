@@ -1,4 +1,4 @@
-const projectData = [
+export const myProjects = [
   {
     id: 1,
     url: "https://unsplash1689.netlify.app/",
@@ -101,4 +101,50 @@ const projectData = [
   }
 ];
 
-export default projectData;
+export const myTools = [
+  {
+    id: 1,
+    language: "JavaScript",
+    img: "https://img.icons8.com/color/480/javascript--v1.png"
+  },
+  {
+    id: 2,
+    language: "CSS",
+    img: "https://img.icons8.com/color/480/css3.png"
+  },
+  {
+    id: 3,
+    language: "Bootstrap",
+    img: "https://img.icons8.com/color/480/bootstrap.png"
+  },
+  {
+    id: 4,
+    language: "Firebase",
+    img: "https://img.icons8.com/color/480/google-firebase-console.png"
+  },
+  {
+    id: 5,
+    language: "GIT",
+    img: "https://img.icons8.com/color/480/git.png"
+  },
+  {
+    id: 6,
+    language: "HTML",
+    img: "https://img.icons8.com/color/480/html-5--v1.png"
+  },
+  {
+    id: 7,
+    language: "Tailwind",
+    img: "https://img.icons8.com/color/480/tailwindcss.png"
+  },
+  {
+    id: 8,
+    language: "Node JS",
+    img: "https://img.icons8.com/fluency/480/node-js.png"
+  },
+  {
+    id: 9,
+    language: "React",
+    img: "https://img.icons8.com/color/480/react-native.png"
+  },
+];

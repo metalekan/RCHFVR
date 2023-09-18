@@ -8,7 +8,7 @@ const Developer = () => {
 
   return (
 
-    <main className="min-h-screen grid place-content-center grid-cols-1 xl:grid-cols-[1.5fr_1fr] mx-[1rem] md:mx-[4rem] animate__animated animate__zoomIn">
+    <main className="min-h-screen grid place-content-center grid-cols-1 xl:grid-cols-[1.5fr_1fr] mx-[1rem] md:mx-[4rem] font-geologica animate__animated animate__zoomIn">
       <div className="md:max-w-[650px] flex flex-col gap-8 justify-center">
         <div className="admin__card flex flex-col items-center justify-center h-[380px] md:h-[520px] xl:h-[150px]">
           <img className="rounded-full xl:hidden border-2 border-[#9B7EDA] w-[160px] h-[160px] self-center z-20 Admin hover:scale-125 duration-300 mb-8" src={Admin} alt="Admin" loading="lazy" />

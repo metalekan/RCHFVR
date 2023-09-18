@@ -12,10 +12,12 @@ export default {
     },
     colors: {
       gray: { 100: "#808080", 200: "#323232", 300: "#212121" },
-      white: "#fff",
+      purple: "#7b52b9",
       cyan: "#14ffec",
       red: "#d6436e",
       green: "#25da72",
+      deepurple: "#130e25",
+      text1: "#e1e1e1"
     },
     fontSize: {
       sm: "14px",

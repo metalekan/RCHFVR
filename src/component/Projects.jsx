@@ -1,12 +1,9 @@
 import React from 'react'
-import projectData from '../..';
-
+import { myProjects } from '../..'
 
 const Projects = () => {
-
-
   return (
-    <section id='project' className='min-h-screen grid place-content-center mx-[1rem] md:mx-[4rem] my-[8rem]'>
+    <section id='project' className='min-h-screen grid place-content-center mx-[1rem] md:mx-[4rem] my-[8rem] font-geologica'>
       <div>
         <h1 className='my-[3rem] text-[2.5rem] md:text-[3rem] text-center font-bold gradient-text-1'>Projects</h1>
         <p className='text-sm md:text-md text-center xl:text-start leading-5'>
@@ -17,7 +14,7 @@ const Projects = () => {
       </div>
       <div className="project grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-4 md:gap-2 xl:gap-9 my-[5rem]">
         {
-          projectData ? projectData.map((project) => (
+          myProjects ? myProjects.map((project) => (
             <div className="card rounded-xl p-1" key={project.id}>
               <img className='rounded-xl' loading='lazy' src={project.image} alt={project.title} />
 

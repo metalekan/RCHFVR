@@ -1,8 +1,9 @@
 import React from 'react'
+import { myTools } from '../..';
 
-const Tools = ({ item }) => {
+const Tools = () => {
   return (
-    <section className='min-h-screen relative grid place-content-center mx-[1rem] md:mx-[4rem] my-[8rem]'>
+    <section className='min-h-screen relative grid place-content-center mx-[1rem] md:mx-[4rem] my-[8rem] font-geologica'>
       <div className="absolute z-[0] translate-x-[-50%] translate-y-[-50%] top-0 left-[50%] w-[30%] h-[30%] rounded-full blue__gradient" />
       <h1 className='my-[3rem] text-[2.5rem] md:text-[3rem] text-center gradient-text-1 font-bold z-40'>Tools</h1>
       <div className="grid grid-cols-1 gap-10 xl:gap-12 xl:grid-cols-2 xl:place-content-center">
@@ -12,7 +13,7 @@ const Tools = ({ item }) => {
         </p>
         <div className="language grid grid-cols-3 gap-3 md:py-4 py-3 shadow-2xl">
           {
-            item.map((lang) => (
+            myTools.map((lang) => (
               <div key={lang.id} className="flex flex-col items-center lang hover:shadow-xl p-2 rounded-2xl">
                 <img src={lang.img} className='hover:scale-125 duration-300 w-[35px] h-[35px] md:h-[50px] md:w-[50px]' alt={lang.language} />
                 <span className='text-[13px] md:text-[18px] text-[#9ca3af]'>{lang.language}</span>
