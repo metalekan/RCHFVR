@@ -6,9 +6,9 @@ const Developer = () => {
 
   return (
 
-    <main className="min-h-screen mx-[1rem] md:mx-[4rem] flex items-center font-geologica text-offWhite">
-      <div className="grid md:grid-cols-[1.5fr_1fr] animate__animated animate__zoomIn">
-        <div className="flex flex-col justify-center gap-8 md:w-full">
+    <main className="min-h-screen mx-[1rem] md:mx-[4rem] flex items-center justify-center font-geologica text-offWhite">
+      <div className="grid md:grid-cols-[1.5fr_1fr] animate__animated animate__zoomIn w-full">
+        <div className="flex flex-col justify-center items-center gap-8">
           <div className="admin_card flex flex-col items-center justify-center py-10">
             <img className="glow w-[50%] rounded-full xl:hidden border-4 border-[#9B7EDA] self-center z-20 hover:scale-125 duration-300 mb-8" src={admin} alt="admin" loading="lazy" />
             <h1 className="text-xl font-bold text-gradient">John Adesiyan</h1>
