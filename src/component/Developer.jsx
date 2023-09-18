@@ -19,7 +19,7 @@ const Developer = () => {
           </p>
         </div>
 
-        <div className="hidden md:block place-self-center rounded-full w-[70%] relative">
+        <div className="hidden xl:block place-self-center rounded-full w-[70%] relative">
           <img className="glow rounded-full border-2 border-[#9B7EDA] z-20" src={admin} alt="admin" />
           <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
           <div className="absolute z-[1] w-[80%] h-[85%] bottom-40 rounded-full white__gradient" />
