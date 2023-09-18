@@ -12,16 +12,10 @@ export const ProjectContext = createContext();
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
-  const close = () => {
-    toggle ? null : setToggle(!toggle);
-  }
 
   return (
     <ProjectContext.Provider value={{toggle, setToggle}}>
-      <div 
-        className="container mx-auto bg-deepurple text-text1"
-         
-        >
+      <div className="flex flex-col bg-deepurple">
         <Header />
         <Developer />
         <Tools />

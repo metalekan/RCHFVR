@@ -1,18 +1,13 @@
 import React from 'react'
 
-
 import { IoMdMail } from 'react-icons/io';
 import { TbBrandGithubFilled } from 'react-icons/tb';
 import { AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
 
 
-
-
-
-
 const Contact = () => {
   return (
-    <section id='contact' className='min-h-screen grid place-content-center relative mx-[1rem] md:mx-[4rem] font-geologica'>
+    <section id='contact' className='min-h-screen grid place-content-center relative mx-[1rem] md:mx-[4rem] font-geologica text-offWhite'>
       <h1 className='my-[3rem] text-[2.5rem] md:text-[3rem] text-center gradient-text-1 font-bold z-40'>Get in Touch</h1>
       <p className='text-sm md:text-md leading-5 text-center z-40'>
         Feel free to get in touch with me if you have any questions, project ideas, or collaboration opportunities. I'm always excited to discuss innovative ways to enhance user experiences through frontend development. <br />Let's create visually engaging and user-friendly websites together!

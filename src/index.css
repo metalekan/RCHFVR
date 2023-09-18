@@ -114,7 +114,7 @@ img {
 }
 
 
-.admin__card {
+.admin_card {
   background: rgba(25, 15, 59, 0.192);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -128,7 +128,7 @@ img {
   filter: blur(750px);
 }
 
-.Admin {
+.glow {
   --glow-color: rgb(217, 176, 255);
   --glow-spread-color: rgba(191, 123, 255, 0.781);
   --enhanced-glow-color: rgb(231, 206, 255);

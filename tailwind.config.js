@@ -17,7 +17,7 @@ export default {
       red: "#d6436e",
       green: "#25da72",
       deepurple: "#130e25",
-      text1: "#e1e1e1"
+      offWhite: "#e1e1e1"
     },
     fontSize: {
       sm: "14px",
