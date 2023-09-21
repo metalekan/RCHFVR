@@ -9,14 +9,14 @@ const Contact = () => {
   return (
     <section id='contact' className='min-h-screen grid place-content-center relative mx-[1rem] md:mx-[4rem] font-geologica text-offWhite'>
       <h1 className='my-[3rem] text-[2.5rem] md:text-[3rem] text-center gradient-text-1 font-bold z-40'>Get in Touch</h1>
-      <p className='text-sm md:text-md leading-5 text-center z-40'>
+      <p className='text-sm md:text-md font-thin leading-5 text-center z-40'>
         Feel free to get in touch with me if you have any questions, project ideas, or collaboration opportunities. I'm always excited to discuss innovative ways to enhance user experiences through frontend development. <br />Let's create visually engaging and user-friendly websites together!
       </p>
       <div className="z-10 flex justify-center gap-9 my-[5rem]">
-        <a href="https://github.com/metalekan"><TbBrandGithubFilled className='text-[40px] hover:scale-125 ease-linear duration-300' /></a>
-        <a href="https://www.linkedin.com/in/lekan-adesiyan-346495270"><AiFillLinkedin className='text-[40px] hover:scale-125 ease-linear duration-300' /></a>
-        <a href="https://twitter.com/metalekan"><AiOutlineTwitter className='text-[40px] hover:scale-125 ease-linear duration-300' /></a>
-        <a href="mailto:adelekanadesiyan@gmail.com"><IoMdMail className='text-[40px] hover:scale-125 ease-linear duration-300' /></a>
+        <a href="https://github.com/metalekan"><TbBrandGithubFilled className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
+        <a href="https://www.linkedin.com/in/lekan-adesiyan-346495270"><AiFillLinkedin className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
+        <a href="https://twitter.com/metalekan"><AiOutlineTwitter className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
+        <a href="mailto:adelekanadesiyan@gmail.com"><IoMdMail className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
       </div>
       <footer>
         <div className="absolute bottom-0 z-10 translate-x-[-50%] translate-y-[-50%] left-[50%] text-center">

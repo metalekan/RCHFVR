@@ -16,10 +16,6 @@ img {
   object-fit: contain;
 }
 
-#contact svg:hover {
-  color: #059669;
-}
-
 .mobile__menu {
   background: rgba(19, 14, 37, 0.99);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

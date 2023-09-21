@@ -14,7 +14,7 @@ const Developer = () => {
             <h1 className="text-xl font-bold text-gradient">John Adesiyan</h1>
             <h2 className="text-md text-gradient">Frontend Developer</h2>
           </div>
-          <p className="text-sm md:text-md text-center xl:text-start leading-5">
+          <p className="text-sm md:text-md font-thin text-center xl:text-start leading-5">
             Welcome to the digital realm of innovation and creativity! <br /> My name is John Adesiyan your frontend developer. I specialize in crafting visually mesmerizing and functionally impeccable websites that not only leave a lasting impression but also drive results. <br /> Join me on this journey through the ever-evolving landscape of web development, where design meets technology, and together, we'll make your online presence truly shine. Let's build something remarkable!
           </p>
         </div>
