@@ -6,8 +6,6 @@ import Tools from './component/Tools'
 import Projects from './component/Projects'
 import Contact from './component/Contact'
 
-
-
 export const ProjectContext = createContext();
 
 const App = () => {
