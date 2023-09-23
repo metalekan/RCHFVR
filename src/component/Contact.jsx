@@ -13,10 +13,10 @@ const Contact = () => {
         Feel free to get in touch with me if you have any questions, project ideas, or collaboration opportunities. I'm always excited to discuss innovative ways to enhance user experiences through frontend development. <br />Let's create visually engaging and user-friendly websites together!
       </p>
       <div className="z-10 flex justify-center gap-9 my-[5rem]">
-        <a href="https://github.com/metalekan"><TbBrandGithubFilled className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
-        <a href="https://www.linkedin.com/in/lekan-adesiyan-346495270"><AiFillLinkedin className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
-        <a href="https://twitter.com/metalekan"><AiOutlineTwitter className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
-        <a href="mailto:adelekanadesiyan@gmail.com"><IoMdMail className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
+        <a target="_blank" href="https://github.com/metalekan"><TbBrandGithubFilled className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/lekan-adesiyan-346495270"><AiFillLinkedin className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
+        <a target="_blank" href="https://twitter.com/metalekan"><AiOutlineTwitter className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
+        <a target="_blank" href="mailto:adelekanadesiyan@gmail.com"><IoMdMail className='text-[40px] hover:scale-125 hover:text-cyan ease-linear duration-300' /></a>
       </div>
       <footer>
         <div className="absolute bottom-0 z-10 translate-x-[-50%] translate-y-[-50%] left-[50%] text-center">

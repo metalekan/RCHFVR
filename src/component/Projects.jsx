@@ -21,8 +21,8 @@ const Projects = () => {
                 <h3 className="card__title font-bold text-md gradient-text-0">{project.title}</h3>
                 <p className="card__description text-[12px]">{project.details}</p>
                 <div className="flex gap-2">
-                  <a href={project.url} className="card__button bg-[#059669] w-[80px] h-[35px] md:h-[40px] flex items-center justify-center rounded-lg text-[12px]">Link</a>
-                  <a href={project.github} className="card__button secondary border-2 border-[#059669] w-[80px] h-[35px] md:h-[40px] flex items-center justify-center rounded-lg text-[12px]">Github</a>
+                  <a href={project.url} target="_blank" className="card__button bg-[#059669] w-[80px] h-[35px] md:h-[40px] flex items-center justify-center rounded-lg text-[12px]">Link</a>
+                  <a href={project.github} target="_blank" className="card__button secondary border-2 border-[#059669] w-[80px] h-[35px] md:h-[40px] flex items-center justify-center rounded-lg text-[12px]">Github</a>
                 </div>
                 <div className="flex gap-2 flex-wrap justify-end">
                   <div className="p-1 flex items-center gap-1">
