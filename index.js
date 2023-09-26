@@ -25,7 +25,7 @@ export const myProjects = [
     image: "images/addtocart.jpeg",
     tech: ['JavaScript', 'API', 'Bootstrap'],
     title: "Eagle Store",
-    details: "Eagle Store is a user-friendly e-commerce platform designed to provide a seamless shopping experience for customers. With a focus on simplicity and convenience, the website allows users to effortlessly add products to their cart and proceed through the checkout process."
+    details: "Eagle Store is a user-friendly e-commerce platform designed to provide a seamless shopping experience for customers. The website allows users to effortlessly add products to their cart and proceed through the checkout process."
   },
   {
     id: 4,

@@ -11,7 +11,7 @@ const Projects = () => {
           These projects represent just a glimpse of what's possible when innovation meets technology. Each one embodies my passion for creating captivating and functional websites that leave a lasting impact.
         </p>
       </div>
-      <div className="project grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-4 md:gap-2 xl:gap-9 my-[5rem]">
+      <div className="project grid grid-cols-1 xl:grid-cols-4 md:grid-cols-2 gap-4 md:gap-2 xl:gap-6 my-[5rem]">
         {
           myProjects ? myProjects.map((project) => (
             <div className="card rounded-xl p-1" key={project.id}>

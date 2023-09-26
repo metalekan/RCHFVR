@@ -24,16 +24,17 @@ img {
 }
 
 .text-gradient {
-  background: radial-gradient(64.18% 34.18% at 41.16% 25.69%,
-      #059669 0.89%,
-      #bef3f5 17.23%,
-      #214d76 42.04%,
-      rgb(176, 92, 255) 55.12%,
-      #5ce1e6 71.54%,
-      #e1e1e1 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: linear-gradient(90deg,
+  #866ee7,
+  #ea60da,
+  #ed8f57,
+  #fbd41d,
+  #2cca91);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+display: block;
 }
 
 .gradient-text-0 {
