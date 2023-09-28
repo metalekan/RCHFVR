@@ -29,10 +29,10 @@ export const myProjects = [
   },
   {
     id: 4,
-    url: "https://coinrank1689.netlify.app/",
-    github: "https://github.com/Metalekan/Coin-Tracker/tree/main/Coinrank",
+    url: "https://coinrank-metalekan.vercel.app/",
+    github: "https://https://github.com/metalekan/cryptorank",
     image: "images/coinrank.jpeg",
-    tech: ['JavaScript', 'Bootstrap', 'API'],
+    tech: ['React', 'Tailwind', 'API'],
     title: "Coinrank App",
     details: "Coinrank is a online app that provides real-time cryptocurrency price tracking and asset information to traders, investors, and enthusiasts. With a sleek and user-friendly interface."
   },
