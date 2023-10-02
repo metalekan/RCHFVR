@@ -97,7 +97,7 @@ export const myProjects = [
     image: "images/movieapp.jpeg",
     tech: ['React', 'API', 'Tailwind'],
     title: "Movie App",
-    details: "Showbox is an innovative movie app that combines the power of React, the sleekness of Tailwind CSS, and seamless API integration to deliver a captivating movie-watching experience. You can effortlessly explore a vast collection of movies, access detailed information, watch trailers."
+    details: "Showbox is an innovative movie app that combines the power of React, the sleekness of Tailwind CSS, and seamless API integration. You can effortlessly explore a vast collection of movies, access detailed information, watch trailers."
   }
 ];
 

@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <ProjectContext.Provider value={{toggle, setToggle}}>
-      <div className="flex flex-col bg-deepurple">
+      <div className="flex flex-col bg-deepurple text-center">
         <Header />
         <Developer />
         <Tools />

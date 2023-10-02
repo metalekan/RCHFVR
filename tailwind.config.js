@@ -8,7 +8,8 @@ export default {
     extend: {},
     fontFamily: {
       'header': ['Handjet', 'cursive'],
-      'geologica': ['Geologica', 'sans-serif']
+      'geologica': ['Geologica', 'sans-serif'],
+      'roboto': ['Roboto Mono', 'monospace']
     },
     colors: {
       gray: { 100: "#808080", 200: "#323232", 300: "#212121" },

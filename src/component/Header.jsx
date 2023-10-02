@@ -13,7 +13,7 @@ const Header = () => {
     
     return (
         <header className="sticky top-0 z-50">
-            <nav className="px-[1rem] md:px-[2rem] py-2 flex justify-between items-center font-geologica text-offWhite glass">
+            <nav className="px-[1rem] md:px-[2rem] py-2 flex justify-between items-center font-roboto text-offWhite glass">
                 <div className="flex items-center">
                     <h3 className="font-header tracking-[4px] text-lg md:text-[2.5rem]">Metalekan</h3>
                     <img src={world} className='w-[40px] h-[40px] md:w-[60px] md:h-[60px]' />
