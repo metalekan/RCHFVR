@@ -6,7 +6,7 @@ const Projects = () => {
     <section id='project' className='min-h-screen grid place-content-center mx-[1rem] md:mx-[4rem] my-[8rem] font-roboto text-offWhite'>
       <div>
         <h1 className='my-[3rem] text-[2.5rem] md:text-[3rem] text-center font-bold font-geologica gradient-text-1'>Projects</h1>
-        <p className='text-sm md:text-md font-thin  md:font-normal leading-5'>
+        <p className='text-sm md:text-md leading-5'>
           A collection of captivating websites that span a spectrum of industries and purposes. From sleek e-commerce platforms to interactive forums and stunning personal showcases, this list showcases my versatility as a frontend developer. <br />
           These projects represent just a glimpse of what's possible when innovation meets technology. Each one embodies my passion for creating captivating and functional websites that leave a lasting impact.
         </p>
@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="project grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-4 md:gap-2 xl:gap-4 my-[5rem] px-2 pb-5">
         {
           myProjects ? myProjects.map((project) => (
-            <div className="card rounded-xl p-1" key={project.id}>
+            <div className="card rounded-xl p-1 font-geologica" key={project.id}>
               <img className='rounded-xl' loading='lazy' src={project.image} alt={project.title} />
 
               <div className="card__content flex flex-col justify-between">
