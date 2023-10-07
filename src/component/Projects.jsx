@@ -21,7 +21,7 @@ const Projects = () => {
           captivating and functional websites that leave a lasting impact.
         </p>
       </div>
-      <div className="project grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-4 md:gap-2 xl:gap-4 my-[5rem] px-2 pb-5">
+      <div className="project grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-4 md:gap-2 xl:gap-4 my-[5rem] pb-5">
         {myProjects ? (
           myProjects.map((project) => (
             <div
