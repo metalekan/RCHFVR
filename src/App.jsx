@@ -13,14 +13,22 @@ const App = () => {
   const [engineStart, setEngineStart] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => { setEngineStart(true) }, 2000)
-  }, [])
-  
+    setTimeout(() => {
+      setEngineStart(true);
+    }, 4000);
+  }, []);
+
   return (
     <ProjectContext.Provider value={{ toggle, setToggle }}>
       <div className="flex flex-col bg-deepurple items-center justify-center text-center min-h-screen">
-      <div className={engineStart ? 'hidden' : 'loader'}></div>
-        <div className={engineStart ? 'flex flex-col' : 'hidden'}>
+        <div class={engineStart ? "hidden" : "loader"}>
+          <div class="loader__circle"></div>
+          <div class="loader__circle"></div>
+          <div class="loader__circle"></div>
+          <div class="loader__circle"></div>
+          <div class="loader__circle"></div>
+        </div>
+        <div className={engineStart ? "flex flex-col" : "hidden"}>
           <Header />
           <Developer />
           <Tools />

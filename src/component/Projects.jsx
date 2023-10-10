@@ -11,7 +11,7 @@ const Projects = () => {
         <h1 className="my-[3rem] text-[2.5rem] md:text-[3rem] text-center font-bold font-geologica gradient-text-1">
           Projects
         </h1>
-        <p className="text-sm xl:text-md2 leading-5">
+        <p className="text-sm xl:text-md leading-5">
           A collection of captivating websites that span a spectrum of
           industries and purposes. From sleek e-commerce platforms to
           interactive forums and stunning personal showcases, this list
@@ -35,24 +35,24 @@ const Projects = () => {
               />
 
               <div className="card__content flex flex-col justify-between">
-                <h3 className="card__title font-bold text-md text-[#059669] gradient-text-80">
+                <h3 className="card__title font-bold text-md xl:text-lg text-[#059669] gradient-text-80">
                   {project.title}
                 </h3>
-                <p className="card__description text-[12px] text-start">
+                <p className="card__description text-[12px] xl:text-sm text-start">
                   {project.details}
                 </p>
                 <div className="flex gap-2 mt-2">
                   <a
                     href={project.url}
                     target="_blank"
-                    className="card__button bg-[#059669] w-[80px] h-[35px] md:h-[40px] flex items-center justify-center rounded-lg text-[12px]"
+                    className="card__button bg-[#059669] w-[80px] h-[35px] md:h-[40px] flex items-center justify-center rounded-lg text-[12px] xl:text-sm"
                   >
                     Link
                   </a>
                   <a
                     href={project.github}
                     target="_blank"
-                    className="card__button secondary border-2 border-[#059669] w-[80px] h-[35px] md:h-[40px] flex items-center justify-center rounded-lg text-[12px]"
+                    className="card__button secondary border-2 border-[#059669] w-[80px] h-[35px] md:h-[40px] flex items-center justify-center rounded-lg text-[12px] xl:text-sm"
                   >
                     Github
                   </a>
