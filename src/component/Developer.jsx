@@ -31,7 +31,6 @@ const Developer = () => {
             remarkable!
           </p>
         </div>
-
         <div className="hidden xl:block place-self-center rounded-full w-[70%] relative">
           <img
             className="glow rounded-full border-2 border-[#9B7EDA] z-20"

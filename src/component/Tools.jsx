@@ -24,7 +24,7 @@ const Tools = () => {
         </div>
       </div>
       <div className="text-center mt-[6rem] md:mt-[9rem]">
-        <button className="btn__glow">Learn More</button>
+        <button className="btn__glow interact-button">Learn More</button>
       </div>
 
     </section>
