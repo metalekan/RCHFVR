@@ -11,7 +11,7 @@ const Projects = () => {
         <h1 className="my-[3rem] text-[2.5rem] md:text-[3rem] text-center font-bold font-geologica gradient-text-1">
           Projects
         </h1>
-        <p className="text-sm leading-5">
+        <p className="text-sm xl:text-md2 leading-5">
           A collection of captivating websites that span a spectrum of
           industries and purposes. From sleek e-commerce platforms to
           interactive forums and stunning personal showcases, this list
@@ -35,7 +35,7 @@ const Projects = () => {
               />
 
               <div className="card__content flex flex-col justify-between">
-                <h3 className="card__title font-bold text-md text-offWhite gradient-text-80">
+                <h3 className="card__title font-bold text-md text-[#059669] gradient-text-80">
                   {project.title}
                 </h3>
                 <p className="card__description text-[12px] text-start">

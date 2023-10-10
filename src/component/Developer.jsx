@@ -4,9 +4,9 @@ import admin from "../assets/metalekan_ai1.jpg";
 const Developer = () => {
   return (
     <main className="min-h-screen mx-[1rem] md:mx-[4rem] flex items-center justify-center font-roboto text-offWhite">
-      <div className="grid md:grid-cols-[1.5fr_1fr] animate__animated animate__zoomIn w-full">
+      <div className="grid xl:grid-cols-[1.5fr_1fr] animate__animated animate__zoomIn w-full">
         <div className="flex flex-col justify-center items-center gap-8">
-          <div className="admin_card flex flex-col items-center justify-center py-10 w-full font-nunito">
+          <div className="admin_card flex flex-col items-center justify-center py-10 w-full border-2 border-offWhite font-nunito">
             <img
               className="glow w-[50%] rounded-full xl:hidden border-4 border-[#9B7EDA] self-center z-20 hover:scale-125 duration-300 mb-8"
               src={admin}
@@ -20,7 +20,7 @@ const Developer = () => {
               Frontend Developer
             </h2>
           </div>
-          <p className="text-sm leading-5">
+          <p className="text-sm xl:text-md leading-5">
             Welcome to the digital realm of innovation and creativity! <br /> My
             name is John Adesiyan your frontend developer. I specialize in
             crafting visually mesmerizing and functionally impeccable websites

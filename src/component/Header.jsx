@@ -23,7 +23,7 @@ const Header = () => {
             className="w-[40px] h-[40px] md:w-[60px] md:h-[60px]"
           />
         </div>
-        <ul className="menu hidden xl:flex lg:gap-[4rem] gap-[2rem] text-sm">
+        <ul className="menu hidden xl:flex lg:gap-[4rem] gap-[2rem] text-sm xl:text-md">
           <li>
             <a href="/">Home</a>
           </li>
@@ -45,7 +45,7 @@ const Header = () => {
         <ul
           className={`${
             toggle ? "grid" : "hidden"
-          } xl:hidden mobile__menu menu h-screen w-full place-content-center gap-[4rem] text-center text-sm md:text-md z-[20] fixed top-0 right-0 rounded-tl-lg animate__animated animate__slideInLeft`}
+          } xl:hidden mobile__menu menu h-screen w-full place-content-center gap-[4rem] text-center text-sm xl:text-md z-[20] fixed top-0 right-0 rounded-tl-lg animate__animated animate__slideInLeft`}
         >
           <li>
             <a onClick={openClose} href="/">

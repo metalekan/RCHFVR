@@ -13,7 +13,7 @@ const Contact = () => {
       <h1 className="my-[3rem] text-[2.5rem] md:text-[3rem] text-center gradient-text-1 font-bold font-geologica z-40">
         Get in Touch
       </h1>
-      <p className="text-sm leading-5 text-center z-40">
+      <p className="text-sm xl:text-md leading-5 text-center z-40">
         Feel free to get in touch with me if you have any questions, project
         ideas, or collaboration opportunities. I'm always excited to discuss
         innovative ways to enhance user experiences through frontend

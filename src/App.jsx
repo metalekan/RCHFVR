@@ -13,7 +13,7 @@ const App = () => {
   const [engineStart, setEngineStart] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => { setEngineStart(true) }, 3000)
+    setTimeout(() => { setEngineStart(true) }, 2000)
   }, [])
   
   return (
