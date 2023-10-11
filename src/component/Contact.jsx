@@ -10,6 +10,8 @@ const Contact = () => {
       id="contact"
       className="min-h-screen grid place-content-center relative mx-[1rem] md:mx-[4rem] font-roboto text-offWhite"
     >
+      <div className="absolute z-[0] translate-x-[-50%] translate-y-[-50%] top-0 left-[50%] w-[60%] h-[60%] rounded-full white__gradient" />
+
       <h1 className="my-[3rem] text-[2.5rem] md:text-[3rem] text-center gradient-text-1 font-bold font-geologica z-40">
         Get in Touch
       </h1>
@@ -24,10 +26,7 @@ const Contact = () => {
         <a target="_blank" href="https://github.com/metalekan">
           <TbBrandGithubFilled className="text-[40px] hover:scale-125 hover:text-[#059669] ease-linear duration-300" />
         </a>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/lekan-adesiyan-346495270"
-        >
+        <a target="_blank" href="https://www.linkedin.com/in/metalekan">
           <AiFillLinkedin className="text-[40px] hover:scale-125 hover:text-[#059669] ease-linear duration-300" />
         </a>
         <a target="_blank" href="https://twitter.com/metalekan">

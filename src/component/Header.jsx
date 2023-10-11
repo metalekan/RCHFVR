@@ -32,7 +32,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1U9KK6Fhf5sVpXokq0BlpZ52Hh5bw1GPk/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1DQObdblXeZDTH-HlmLihFn2k-1c5l980/view?usp=drive_link"
               target="_blank"
             >
               Resume
