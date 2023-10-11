@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50">
+    <header className="sticky top-0 z-50 w-full">
       <nav className="px-[1rem] md:px-[2rem] py-2 flex justify-between items-center font-roboto text-offWhite glass">
         <div className="flex items-center">
           <h3 className="font-header tracking-[4px] text-lg md:text-[2.5rem]">

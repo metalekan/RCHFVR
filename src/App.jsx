@@ -28,7 +28,7 @@ const App = () => {
           <div class="loader__circle"></div>
           <div class="loader__circle"></div>
         </div>
-        <div className={engineStart ? "flex flex-col" : "hidden"}>
+        <div className={engineStart ? "flex flex-col xl:max-w-[1440px] w-full" : "hidden"}>
           <Header />
           <Developer />
           <Tools />
