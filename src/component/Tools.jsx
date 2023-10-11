@@ -4,7 +4,7 @@ import { myTools } from '../..';
 const Tools = () => {
 
   return (
-    <section className='min-h-screen relative grid place-content-center mx-[1rem] md:mx-[4rem] my-[8rem] font-roboto text-offWhite'>
+    <section className='min-h-screen relative grid place-content-center mx-[1rem] my-[8rem] font-roboto text-offWhite'>
       <div className="absolute z-[0] translate-x-[-50%] translate-y-[-50%] top-0 left-[50%] w-[30%] h-[30%] rounded-full blue__gradient" />
       <h1 className='my-[3rem] text-[2.5rem] md:text-[3rem] text-center gradient-text-1 font-bold font-geologica z-40'>Tools</h1>
       <div className="grid grid-cols-1 gap-10 xl:gap-12 xl:grid-cols-2 xl:place-content-center">

@@ -3,7 +3,7 @@ import admin from "../assets/metalekan_ai1.jpg";
 
 const Developer = () => {
   return (
-    <main className="min-h-screen mx-[1rem] md:mx-[4rem] flex items-center justify-center font-roboto text-offWhite">
+    <main className="min-h-screen mx-[1rem] flex items-center justify-center font-roboto text-offWhite">
       <div className="grid xl:grid-cols-[1.5fr_1fr] animate__animated animate__zoomIn w-full">
         <div className="flex flex-col justify-center items-center gap-8">
           <div className="admin_card flex flex-col items-center justify-center py-10 w-full border-2 border-offWhite font-nunito">

@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section
       id="project"
-      className="min-h-screen grid place-content-center mx-[1rem] md:mx-[4rem] my-[8rem] font-roboto text-offWhite"
+      className="min-h-screen grid place-content-center mx-[1rem] my-[8rem] font-roboto text-offWhite"
     >
       <div>
         <h1 className="my-[3rem] text-[2.5rem] md:text-[3rem] text-center font-bold font-geologica gradient-text-1">
