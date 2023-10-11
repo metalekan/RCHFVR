@@ -10,7 +10,7 @@ const Contact = () => {
       id="contact"
       className="min-h-screen grid place-content-center relative mx-[1rem] md:mx-[4rem] font-roboto text-offWhite"
     >
-      <div className="absolute z-[0] translate-x-[-50%] translate-y-[-50%] top-0 left-[50%] w-[60%] h-[60%] rounded-full white__gradient" />
+      <div className="absolute z-[0] translate-x-[-50%] translate-y-[-50%] top-0 left-[50%] w-[30%] h-[30%] rounded-full new__gradient" />
 
       <h1 className="my-[3rem] text-[2.5rem] md:text-[3rem] text-center gradient-text-1 font-bold font-geologica z-40">
         Get in Touch

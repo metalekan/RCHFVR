@@ -121,10 +121,23 @@ display: block;
   border: 1px solid rgba(19, 14, 37, 1);
 }
 
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.new__gradient {
+  background: #e499ff;
+  filter: blur(750px);
+}
+
+
+
 
 .glow {
   --glow-color: rgb(217, 176, 255);
@@ -198,10 +211,7 @@ display: block;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
-}
+
 
 
 /* Projects Section */
