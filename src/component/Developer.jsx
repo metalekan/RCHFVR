@@ -1,4 +1,5 @@
 import React from "react";
+
 import admin from "../assets/metalekan_ai1.jpg";
 
 const Developer = () => {
@@ -27,8 +28,7 @@ const Developer = () => {
             that not only leave a lasting impression but also drive results.{" "}
             <br /> Join me on this journey through the ever-evolving landscape
             of web development, where design meets technology, and together,
-            we'll make your online presence truly shine. Let's build something
-            remarkable!
+            we'll make your online presence truly shine. Let's build something remarkable!
           </p>
         </div>
         <div className="hidden xl:block place-self-center rounded-full w-[70%] relative">
